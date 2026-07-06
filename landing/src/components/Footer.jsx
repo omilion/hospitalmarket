@@ -62,7 +62,7 @@ export default function Footer() {
 
   // Dark glassmorphic form content integrated organically
   const formContent = (
-    <div className="bg-[#111827]/40 border border-slate-800/80 backdrop-blur-md p-8 md:p-10 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+    <div className="bg-black/35 border border-white/10 backdrop-blur-md p-8 md:p-10 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.25)]">
       {submitted ? (
         <div className="flex flex-col items-center justify-center text-center space-y-6 py-8">
           <div className="h-16 w-16 bg-emerald-500/10 text-[#04F79F] rounded-full flex items-center justify-center border border-emerald-500/20 shadow-[0_0_15px_rgba(4,247,159,0.15)]">
@@ -280,7 +280,7 @@ export default function Footer() {
   );
 
   return (
-    <footer id="contacto" className="bg-[#0B0F19] text-slate-400 pt-24 pb-16 relative border-t border-slate-850 z-20 overflow-hidden">
+    <footer id="contacto" className="bg-[#1e4b60] text-slate-200 pt-24 pb-16 relative border-t border-white/10 z-20 overflow-hidden">
       
       {/* Super Footer Layout with side-by-side grid */}
       <div className="container mx-auto px-6 max-w-7xl">
@@ -295,7 +295,7 @@ export default function Footer() {
                 alt="Hospital Market Logo Footer" 
                 className="h-[52px] w-auto object-contain mb-2"
               />
-              <p className="text-xs md:text-sm text-slate-400 leading-relaxed text-balance">
+              <p className="text-xs md:text-sm text-slate-100 leading-relaxed text-balance">
                 Grupo de logística y abastecimiento médico en Chile. Conectamos laboratorios globales con instituciones clínicas y pacientes de forma inteligente y sostenible.
               </p>
               <div className="inline-flex items-center space-x-2 bg-emerald-500/10 text-[#04F79F] px-3 py-1.5 rounded-lg border border-emerald-500/20 text-[10px] font-black uppercase tracking-wider shadow-sm">
@@ -320,7 +320,7 @@ export default function Footer() {
                     <Building2 className="h-4 w-4 mr-2 text-vm-brand" />
                     VidaMedica.cl B2B
                   </a>
-                  <span className="text-[10px] text-slate-500 pl-6">Insumos Clínicos Mayoristas</span>
+                  <span className="text-[10px] text-slate-200/70 pl-6">Insumos Clínicos Mayoristas</span>
                 </li>
                 <li className="flex flex-col">
                   <a 
@@ -332,7 +332,7 @@ export default function Footer() {
                     <ShoppingBag className="h-4 w-4 mr-2 text-[#04F79F]" />
                     QueNoVenza.cl B2C
                   </a>
-                  <span className="text-[10px] text-slate-500 pl-6">Descuentos por Expiración</span>
+                  <span className="text-[10px] text-slate-200/70 pl-6">Descuentos por Expiración</span>
                 </li>
               </ul>
             </div>
@@ -367,18 +367,18 @@ export default function Footer() {
         </div>
 
         {/* Lower block: Copyright & Compliance */}
-        <div className="border-t border-slate-850 pt-8 mt-16 flex flex-col md:flex-row items-center justify-between text-[10px] font-black uppercase tracking-wider text-slate-500">
+        <div className="border-t border-white/10 pt-8 mt-16 flex flex-col md:flex-row items-center justify-between text-[10px] font-black uppercase tracking-wider text-slate-200/80">
           <div className="flex flex-col md:flex-row md:space-x-6 text-center md:text-left space-y-2 md:space-y-0">
             <span>© 2026 Hospital Market Chile. Todos los derechos reservados.</span>
-            <span className="text-slate-600 hidden md:inline">|</span>
+            <span className="text-teal-400 hidden md:inline">|</span>
             <span>Cumplimiento Ley 19.628 de Protección de Datos Personales</span>
-            <span className="text-slate-600 hidden md:inline">|</span>
+            <span className="text-teal-400 hidden md:inline">|</span>
             <span>Insumos Médicos Certificados ISP</span>
           </div>
           
           <button 
             onClick={scrollToTop}
-            className="mt-6 md:mt-0 p-3 bg-slate-800 hover:bg-slate-700 text-white rounded-xl shadow-md transition-all active:scale-95 flex items-center space-x-2 border border-slate-700"
+            className="mt-6 md:mt-0 p-3 bg-white/10 hover:bg-white/20 text-white rounded-xl shadow-md transition-all active:scale-95 flex items-center space-x-2 border border-white/20"
             aria-label="Volver arriba"
           >
             <span>Subir</span>
