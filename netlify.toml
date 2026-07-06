@@ -1,0 +1,15 @@
+[build]
+  # Base directory where the package.json and vite config reside
+  base = "landing"
+
+  # Command to compile the project
+  command = "npm run build"
+
+  # Directory that Netlify will publish (relative to the base directory)
+  publish = "dist"
+
+# Single Page Application redirect rule to prevent 404s on route reloads
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
