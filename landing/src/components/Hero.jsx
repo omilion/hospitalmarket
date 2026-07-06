@@ -29,7 +29,10 @@ export default function Hero({ onStartQuoting }) {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-base md:text-xl text-slate-300 font-normal max-w-3xl mx-auto leading-relaxed mb-10 text-balance">
+        <p 
+          className="text-base md:text-xl text-white font-medium max-w-3xl mx-auto leading-relaxed mb-10 text-balance"
+          style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.85)' }}
+        >
           Representantes oficiales y distribuidores autorizados de marcas líderes globales. Abastecemos de forma estratégica al sector de salud pública, clínicas privadas y cuidado clínico en el hogar a través de nuestros canales especializados.
         </p>
 
